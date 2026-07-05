@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience & Specializations — Dr. Gaurav Gomber | Pediatrician Bikaner</title>
+<meta name="description" content="21+ years of pediatric experience: Paediatric Endocrinology, Allergy & Immunology, Gastroenterology and critical newborn care across three Bikaner medical centers.">
+<style>
+/* ============ Dr. Gaurav Gomber — Warm & Friendly Pediatric Theme ============ */
+:root{
+  --cream:#FFF9F2; --teal:#0D9488; --teal-dark:#0F766E; --teal-light:#CCFBF1;
+  --peach:#FB923C; --peach-light:#FFEDD5; --ink:#292524;
+  --stone-4:#A8A29E; --stone-5:#78716C; --stone-6:#57534E;
+  --amber:#FBBF24; --border:#FFEDD5; --radius:24px;
+  --shadow:0 1px 3px rgba(0,0,0,.06),0 4px 14px rgba(0,0,0,.05);
+  --shadow-lg:0 10px 30px rgba(13,148,136,.15);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',system-ui,-apple-system,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+a{color:inherit;text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+
+/* ---- Left Sidebar Nav ---- */
+body{padding-left:250px}
+.site-header{position:fixed;top:0;left:0;bottom:0;width:250px;z-index:50;background:#fff;border-right:1px solid var(--border);padding:26px 16px;overflow-y:auto}
+.nav{display:flex;flex-direction:column;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.05rem;color:var(--teal-dark);line-height:1.2}
+.brand-icon{display:grid;place-items:center;flex:none;width:40px;height:40px;border-radius:50%;background:var(--teal);color:#fff;font-size:1.15rem}
+.menu-btn{display:none;background:none;border:none;cursor:pointer;padding:8px;border-radius:10px;font-size:1.4rem;color:var(--ink)}
+.menu-btn:hover{background:var(--peach-light)}
+.nav-menu{display:flex;flex-direction:column;list-style:none;gap:6px;font-weight:700;font-size:.95rem}
+.nav-menu a{display:block;padding:11px 14px;border-radius:12px;color:var(--ink)}
+.nav-menu a:hover{background:var(--peach-light);color:var(--teal-dark)}
+.nav-menu a[aria-current="page"]{background:var(--teal-light);color:var(--teal-dark)}
+.nav-cta{background:var(--teal);color:#fff !important;text-align:center;border-radius:999px !important;margin-top:12px}
+.nav-cta:hover{background:var(--teal-dark)}
+@media(max-width:820px){
+  body{padding-left:0}
+  .site-header{position:sticky;top:0;left:auto;right:auto;bottom:auto;width:100%;border-right:0;border-bottom:1px solid var(--border);padding:10px 16px;overflow:visible;background:rgba(255,255,255,.97)}
+  .nav{flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0}
+  .menu-btn{display:block}
+  .nav-menu{display:none;width:100%;padding:10px 0}
+  .nav-menu.open{display:flex}
+}
+
+/* ---- Hero ---- */
+.hero{position:relative;overflow:hidden;padding:70px 0}
+.hero::before,.hero::after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;filter:blur(90px);opacity:.6;z-index:0}
+.hero::before{top:-140px;right:-120px;background:var(--peach-light)}
+.hero::after{bottom:-180px;left:-120px;background:var(--teal-light)}
+.hero .container{position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr}.hero{padding:44px 0}}
+.hero h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:900;line-height:1.15;margin:14px 0}
+.hero p.lead{font-size:1.13rem;color:var(--stone-6);margin-bottom:28px}
+.accent{color:var(--teal)}
+.badge{display:inline-block;padding:6px 16px;border-radius:999px;font-weight:700;font-size:.85rem}
+.badge-teal{background:var(--teal-light);color:var(--teal-dark)}
+.badge-peach{background:var(--peach-light);color:#C2540A}
+.center{text-align:center}
+
+/* ---- Buttons ---- */
+.btn{display:inline-block;padding:13px 28px;border-radius:999px;font-weight:700;font-size:1rem;cursor:pointer;transition:.2s}
+.btn-primary{background:var(--teal);color:#fff;box-shadow:var(--shadow-lg)}
+.btn-primary:hover{background:var(--teal-dark)}
+.btn-outline{background:#fff;border:2px solid var(--peach);color:var(--ink)}
+.btn-outline:hover{background:var(--peach-light)}
+.btn-row{display:flex;gap:14px;flex-wrap:wrap}
+
+/* ---- Cards & Grids ---- */
+.card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+.card:hover{box-shadow:0 6px 22px rgba(0,0,0,.08)}
+.card .icon{font-size:2rem;margin-bottom:10px}
+.card h3{font-weight:800;margin-bottom:6px;font-size:1.05rem}
+.card p{font-size:.92rem;color:var(--stone-5)}
+.grid{display:grid;gap:20px}
+.grid-2{grid-template-columns:repeat(2,1fr)}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+.grid-4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.grid-4{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}}
+@media(max-width:520px){.grid-4{grid-template-columns:1fr}}
+
+/* ---- Sections ---- */
+.section{padding:64px 0}
+.section-alt{background:rgba(204,251,241,.4)}
+.section h2{font-size:2rem;font-weight:900;text-align:center;margin-bottom:8px}
+.section .sub{text-align:center;color:var(--stone-5);font-weight:600;margin-bottom:38px}
+.link-more{display:block;text-align:center;margin-top:30px;font-weight:700;color:var(--teal)}
+.link-more:hover{text-decoration:underline}
+
+/* ---- Stats ---- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
+@media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+.stat .num{font-size:1.9rem;font-weight:900;color:var(--teal)}
+.stat .lbl{font-size:.82rem;font-weight:700;color:var(--stone-5);margin-top:4px}
+
+/* ---- Profile card ---- */
+.profile-card{background:#fff;border-radius:var(--radius);border:1px solid var(--border);box-shadow:0 12px 34px rgba(0,0,0,.08);padding:34px}
+.avatar{width:104px;height:104px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:grid;place-items:center;font-size:2.6rem;color:#fff;margin:0 auto 14px}
+.profile-card h2,.profile-card h3{text-align:center;font-weight:800}
+.profile-sub{text-align:center;color:var(--stone-5);font-weight:600;margin-bottom:22px}
+.mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;text-align:center}
+.mini-stats>div{background:var(--cream);border-radius:16px;padding:12px 6px}
+.mini-stats .num{font-size:1.4rem;font-weight:900;color:var(--teal)}
+.mini-stats .lbl{font-size:.7rem;font-weight:700;color:var(--stone-5)}
+.fact-list{list-style:none;font-size:.92rem}
+.fact-list li{display:flex;gap:10px;margin-bottom:12px}
+
+/* ---- Timeline ---- */
+.timeline{list-style:none;position:relative;margin-left:18px;border-left:4px solid var(--teal-light)}
+.timeline li{position:relative;padding:0 0 36px 34px}
+.timeline li:last-child{padding-bottom:0}
+.tl-dot{position:absolute;left:-20px;top:0;width:36px;height:36px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:.95rem}
+.timeline h3{font-weight:800;font-size:1.1rem;margin-bottom:4px}
+.timeline p{color:var(--stone-6);font-size:.95rem}
+
+/* ---- Reviews ---- */
+.rating-box{display:inline-block;background:#fff;border:1px solid var(--border);border-radius:var(--radius);box-shadow:0 12px 34px rgba(0,0,0,.08);padding:34px 48px}
+.rating-box .big{font-size:3.6rem;font-weight:900;color:var(--teal);line-height:1}
+.stars{color:var(--amber);font-size:1.5rem;letter-spacing:3px;margin:8px 0}
+.stars .off{color:#D6D3D1}
+blockquote.review{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;display:flex;flex-direction:column;border:1px solid var(--border)}
+blockquote.review .stars{font-size:1rem;margin:0 0 8px}
+blockquote.review p{font-size:.92rem;color:var(--stone-6);flex:1}
+blockquote.review footer{margin-top:14px;font-size:.85rem;font-weight:700;color:var(--stone-5)}
+.note{font-size:.75rem;color:var(--stone-4);text-align:center;margin-top:26px}
+
+/* ---- Story cards ---- */
+.story{background:#fff;border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-columns:1fr 2fr;margin-bottom:28px}
+.story.flip{grid-template-columns:2fr 1fr}
+@media(max-width:760px){.story,.story.flip{grid-template-columns:1fr}}
+.story-visual{display:grid;place-items:center;padding:36px;text-align:center;font-weight:900}
+.story-visual .big-icon{font-size:3.6rem;display:block;margin-bottom:8px}
+.bg-teal-soft{background:rgba(204,251,241,.65);color:var(--teal-dark)}
+.bg-peach-soft{background:var(--peach-light);color:#C2540A}
+.story-body{padding:32px}
+.story-body h2{font-size:1.5rem;font-weight:900;margin-bottom:12px;text-align:left}
+.story-body p{color:var(--stone-6);margin-bottom:14px}
+.outcome{background:var(--cream);border-radius:16px;padding:14px 18px;font-size:.9rem;font-weight:700;color:var(--teal-dark);margin-bottom:0}
+
+/* ---- Prose blocks (About) ---- */
+.prose-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:32px;margin-bottom:22px}
+.prose-card h3{font-size:1.4rem;font-weight:900;margin-bottom:10px}
+.prose-card p{color:var(--stone-6);margin-bottom:10px}
+.prose-card p:last-child{margin-bottom:0}
+.about-grid{display:grid;grid-template-columns:1fr 2fr;gap:30px;align-items:start}
+@media(max-width:820px){.about-grid{grid-template-columns:1fr}}
+
+/* ---- Footer ---- */
+.site-footer{background:var(--ink);color:#D6D3D1;padding:44px 0 20px;margin-top:40px}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;font-size:.9rem}
+@media(max-width:760px){.footer-grid{grid-template-columns:1fr}}
+.site-footer .ft-title{font-weight:800;color:#fff;font-size:1.1rem;margin-bottom:8px}
+.site-footer .ft-head{font-weight:700;color:#fff;margin-bottom:8px}
+.site-footer ul{list-style:none}
+.site-footer li{margin-bottom:5px}
+.site-footer a:hover{color:#fff}
+.copyright{text-align:center;color:#78716C;font-size:.75rem;margin-top:32px}
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a href="index.html" class="brand"><span class="brand-icon" aria-hidden="true">🩺</span>Dr. Gaurav Gomber</a>
+    <button id="menuBtn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+    <ul id="navMenu" class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Dr. Gomber</a></li>
+      <li><a href="experience.html" aria-current="page">Experience</a></li>
+      <li><a href="reviews.html">Patient Reviews</a></li>
+      <li><a href="stories.html">Success Stories</a></li>
+      <li><a href="index.html#visit" class="nav-cta">📞 Book Appointment</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container center">
+    <span class="badge badge-teal">Experience & Specializations</span>
+    <h1>More Than <span class="accent">Two Decades</span> of Pediatric Excellence</h1>
+    <p class="lead" style="max-width:640px;margin:0 auto">More than 21 years of hands-on pediatric practice — over 50,000 infants, children and teenagers treated across Rajasthan, from everyday childhood illness to the region's most complex and critical cases.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="stats">
+      <div class="stat"><div class="num">21+</div><div class="lbl">Years in Practice</div></div>
+      <div class="stat"><div class="num">50,000+</div><div class="lbl">Children Treated</div></div>
+      <div class="stat"><div class="num">3</div><div class="lbl">Medical Centers</div></div>
+      <div class="stat"><div class="num">4.2+</div><div class="lbl">Average Rating</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:760px">
+    <h2>The Journey</h2>
+    <p class="sub">From medical school to regional trust</p>
+    <ol class="timeline">
+      <li>
+        <span class="tl-dot" aria-hidden="true">🎓</span>
+        <h3>Medical Foundation — MBBS & MD (Paediatrics)</h3>
+        <p>Completed MBBS followed by an MD in Paediatrics — years of demanding hospital training in newborn care, child development and pediatric emergencies. This rigorous foundation shaped a career devoted entirely to one mission: the health of children.</p>
+      </li>
+      <li>
+        <span class="tl-dot" aria-hidden="true">🔬</span>
+        <h3>Specialist Depth in Complex Child Health</h3>
+        <p>Rather than stopping at general pediatrics, he spent years building advanced expertise in three of the hardest domains of child health — Paediatric Endocrinology (growth, hormones & diabetes), Allergy & Immunology (chronic asthma & immunity) and Gastroenterology (digestion, feeding & nutrition). Today, he is the specialist other doctors refer their toughest cases to.</p>
+      </li>
+      <li>
+        <span class="tl-dot" aria-hidden="true">🏥</span>
+        <h3>Multi-Center Practice Across Bikaner</h3>
+        <p>Built one of Bikaner's busiest pediatric practices across three prominent centers — Marwar Hospital, Kothari Medical & Research Institute and Aashirwad Nursing Home. He manages a very high daily OPD footfall, yet reviewers consistently note he gives every parent unhurried attention — reflected in a steady 4.2–4.3★ public rating.</p>
+      </li>
+      <li>
+        <span class="tl-dot" aria-hidden="true">🌾</span>
+        <h3>Regional Trust Beyond the City</h3>
+        <p>Two decades of consistent results earned him trust far beyond the city. Families from Sri Dungargarh and remote villages travel hours for a single consultation — often after months of failed local treatment — for acute illness, critical newborn care and chronic conditions. Many parents describe his precise diagnosis as a \"Midas touch.\"</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2>Areas of Specialization</h2>
+    <p class="sub">Deep expertise where families need it most</p>
+    <div class="grid grid-2">
+      <article class="card"><div class="icon" aria-hidden="true">🧬</div><h3>Paediatric Endocrinology</h3><p>Diagnosis and long-term management of hormonal and metabolic conditions in children — growth disorders, thyroid problems, puberty concerns and childhood diabetes.</p></article>
+      <article class="card"><div class="icon" aria-hidden="true">🌸</div><h3>Allergy & Immunology</h3><p>Chronic asthma, allergic conditions and immune disorders. Known for tailored inhaler/pump protocols that keep children symptom-free and active long-term.</p></article>
+      <article class="card"><div class="icon" aria-hidden="true">🍎</div><h3>Paediatric Gastroenterology</h3><p>Digestive disorders, feeding difficulties, and nutritional challenges in infants and children — from newborn digestive anomalies to chronic GI conditions.</p></article>
+      <article class="card"><div class="icon" aria-hidden="true">👶</div><h3>Critical Newborn Care</h3><p>Widely credited with successfully navigating complex newborn cases — congenital anomalies, digestive disorders, and feeding/lactation crises.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Practice Locations</h2>
+    <p class="sub">Three prominent medical centers in Bikaner</p>
+    <div class="grid grid-3">
+      <article class="card center"><div class="icon" aria-hidden="true">🏥</div><h3>Marwar Hospital</h3><p>Bikaner, Rajasthan</p></article>
+      <article class="card center"><div class="icon" aria-hidden="true">🏥</div><h3>Kothari Medical & Research Institute</h3><p>Bikaner, Rajasthan</p></article>
+      <article class="card center"><div class="icon" aria-hidden="true">🏥</div><h3>Aashirwad Nursing Home</h3><p>Bikaner, Rajasthan</p></article>
+    </div>
+    <div class="center" style="margin-top:36px">
+      <a href="stories.html" class="btn btn-primary">See Patient Success Stories →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="ft-title">🩺 Dr. Gaurav Gomber</p>
+      <p>MBBS, MD (Paediatrics)<br>Pediatrician & Child Specialist, Bikaner, Rajasthan</p>
+      <p style="margin-top:10px">📞 Appointments: <a href="tel:+919784417672" style="color:#fff;font-weight:700">97844 17672</a></p>
+    </div>
+    <nav aria-label="Footer">
+      <p class="ft-head">Explore</p>
+      <ul>
+        <li><a href="about.html">About Dr. Gomber</a></li>
+        <li><a href="experience.html">Experience & Specializations</a></li>
+        <li><a href="reviews.html">Patient Reviews</a></li>
+        <li><a href="stories.html">Success Stories</a></li>
+      </ul>
+    </nav>
+    <div>
+      <p class="ft-head">Consultation Centers</p>
+      <ul>
+        <li>Marwar Hospital, Bikaner</li>
+        <li>Kothari Medical & Research Institute</li>
+        <li>Aashirwad Nursing Home</li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Dr. Gaurav Gomber. Informational website — not a substitute for medical advice.</p>
+</footer>
+
+<script>
+var btn=document.getElementById('menuBtn'),menu=document.getElementById('navMenu');
+btn.addEventListener('click',function(){var open=menu.classList.toggle('open');btn.setAttribute('aria-expanded',open);});
+</script>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
